@@ -1,0 +1,141 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
+/* Laptop/Tablet (1024px) */
+body
+{
+    font-family: 'Oswald', sans-serif;
+    color: #1a1a1a;
+}
+@media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation: landscape) {
+    #instawidget { width: 100%; }
+    #instatitle { width: 40%; }
+    #instaphoto { width: 60%; }
+    #instaheading { width: 100%; }
+    #instahashtag { width: 100%; }
+}
+
+/* Tablet Portrait (768px) */
+@media only screen and (min-width: 321px) and (max-width: 1024px) and (orientation: portrait) {
+    #instawidget { width: 100%; }
+    #instatitle { width: 40%; }
+    #instaphoto { width: 60%; }
+    #instaheading { width: 100%; }
+    #instahashtag { width: 100%; }
+}
+
+/* Phone Landscape (480px) */
+@media only screen and (min-width: 321px) and (max-width: 480px) and (orientation: landscape) {
+    #instawidget { width: 100%; }
+    #instatitle { width: 100%; }
+    #instaphoto { width: 100%; }
+    #instaheading { width: 100%; }
+    #instahashtag { width: 100%; }
+}
+
+/* Phone Portrait (320px) */
+@media only screen and (max-width: 320px) {
+    #instawidget { width: 100%; }
+    #instatitle { width: 100%; }
+    #instaphoto { width: 100%; }
+    #instaheading { width: 100%; }
+    #instahashtag { width: 100%; }
+}
+
+.box { float: left; }
+#root { max-width: 1200px; margin: 0 auto; }
+
+#instawidget
+{ width: 100%;
+    padding:1%;
+    box-sizing: border-box;
+
+}
+#instatitle
+{
+    width: 40%;
+    padding: 0;
+    font-size: 150%;
+    box-sizing: border-box;
+}
+#instaphoto
+{
+    width: 60%;
+    padding: 1%;
+    box-sizing: border-box;
+    text-align: left;
+
+}
+#instaheading {
+    width: 100%;
+    padding: 4vh 3vw 1vh;
+    text-align: center;
+    font-size: 2.1vw;
+    box-sizing: border-box;
+    height: 50%;
+
+}
+#instahashtag {
+    width: 100%;
+    padding:1vh 3vw 4vh;
+    font-size: 4vw;
+    font-weight: 700;
+    text-align: center;
+    box-sizing: border-box;
+    height: 50%;
+    border-radius: 2px;
+}
+.instagram img
+{
+    width: 5vw;
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.instagram
+{
+    margin-bottom: 0;
+}
+div#instaphoto img
+{
+    width:25%;
+    padding:0.5vh;
+    border: 0.5vh solid #c9c9c9;
+    box-sizing: border-box;
+    margin: 0.2vh 0.2vw;
+
+}
+.instagallery
+{
+    background: #1a1a1a;
+    color: #ffffff;
+    font-size: 1vw;
+    clear: both;
+    padding: 0.5vw;
+    max-width: 6vw;
+    text-align: center;
+    margin: 0 auto;
+}
+.instagallery a:link,.instagallery a:visited
+{
+    color: #ffffff;
+    text-decoration: none;
+}
+.instadetail
+{
+    font-size: 0.3em;
+    line-height: 1.2em;
+    text-align: center;
+    font-weight: normal;
+}
+body {
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -o-transition:  opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
+}
+.black
+{
+    background: #fff url("img/ajax-loader.gif") no-repeat 48% 48%;
+    opacity: 0;
+
+}
+
+
