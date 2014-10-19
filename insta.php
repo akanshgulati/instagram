@@ -32,7 +32,7 @@
                     <?php
                         require_once 'instagram.class.php';
                         $instagram = new Instagram('YOUR CLIENT ID');
-                        $tag = 'akanshgulati'; //hashtag to use without '#'
+                        $tag = 'hashtag'; //hashtag to use without '#'
                         $limit = 6; //Count of the number of photos to display
 
                     $media = $instagram->getTagMedia($tag);
