@@ -1,4 +1,4 @@
-<img src="https://github.com/akanshgulati/instagram/blob/master/img/instagram.png" alt="instagram_image" width="50px"> Embed Instagram Images
+<img src="https://github.com/akanshgulati/instagram/blob/master/img/instagram.jpg" alt="instagram_image" width="50px"> Embed Instagram Images
 =========
 
 Embed Instagram images in your website for a perticular hashtag in responsive layout.
