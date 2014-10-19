@@ -10,7 +10,7 @@ Embed Instagram images in your website for a perticular hashtag in responsive la
 </ol>
 <hr>
 <h2> How to use </h2>
-Make following changes in the insta.php file
+Make following changes in the insta.php file after downloading whole package
 <ol>
 <li> Replace all the letter "hashtag" with your own hastag</li>
 <li> Add the Client Id generated from Instagram "YOUR CLIENT ID" place
